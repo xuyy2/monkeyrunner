@@ -7,8 +7,8 @@ import random
 from com.android.monkeyrunner import MonkeyRunner as mr
 from com.android.monkeyrunner import MonkeyDevice as md
 from com.android.monkeyrunner import MonkeyImage as mi
-from com.android.monkeyrunner.easy import EasyMonkeyDevice  #提供了根据ID进行访问
-from com.android.monkeyrunner.easy import By    #根据ID返回PyObject的方法
+# from com.android.monkeyrunner.easy import EasyMonkeyDevice  #提供了根据ID进行访问
+# from com.android.monkeyrunner.easy import By    #根据ID返回PyObject的方法
 
 # from com.android.monkeyrunner.recorder import MonkeyRecorder as recorder
 
