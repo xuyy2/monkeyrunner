@@ -120,7 +120,6 @@ def add_hat(img,hat_img):
 
             return img
 
-
 # 读取帽子图，第二个参数-1表示读取为rgba通道，否则为rgb通道
 hat_img = cv2.imread("E:\monkeyrunner\image\hat2.png",-1)
 

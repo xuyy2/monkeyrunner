@@ -13,14 +13,27 @@ device=mr.waitForConnection()#手机devices
 # device.touch(420,200,'DOWN_AND_UP')
 
 #输入数字
-for i in range(0,15):
+for i in range(0,5):
 	print i
-	if i<100:
-		for a in range(1,50):
-			device.touch(375,1009,'DOWN_AND_UP')
-	mr.sleep(3)
-	device.touch(337,772,'DOWN_AND_UP')
+	if i<5:
+		for a in range(1,100):
+			print(a)
+			# 点击数字5
+			device.touch(370,1000,'DOWN_AND_UP')
+			# 反复点击启动
+			# device.touch(615,560,'DOWN_AND_UP')
+			# mr.sleep(1)
+			# device.press('KEYCODE_BACK',md.DOWN_AND_UP)
+            # # 备注资料点击h
+			# device.touch(375,1000,'DOWN_AND_UP')
+            # 一键点赞 点赞次数+
+			# device.touch(550,1030,'DOWN_AND_UP')
+            # 机 附近的人+号
+			# device.touch(365,680,'DOWN_AND_UP')
+			mr.sleep(0.1)
 
+	# device.touch(270,780,'DOWN_AND_UP')
+	# mr.sleep(1)
 		# mr.sleep(1)
 	# else:
 	# 	for a in range(1,50):
